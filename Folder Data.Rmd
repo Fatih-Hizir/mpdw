@@ -1,0 +1,21 @@
+---
+title: "Folder Data"
+author: "Fatih Avicenna Hizir"
+date: "2025-08-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(tidyverse)
+library(knitr)
+```
+
+```{r}
+Dataprak1 <- read.csv("~/Downloads/Gold Price 2023-2024.csv")
+Dataprak1
+```
+
+
