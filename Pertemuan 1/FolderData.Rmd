@@ -1,1 +1,12 @@
+---
+title: "Folder Data"
+author: "Fatih Hizir"
+date: "2025-08-19"
+output: html_document
+---
+
+```{r}
+DataPrak1 <- read.csv("~/Downloads/Gold Price 2023-2024.csv")
+DataPrak1
+```
 
